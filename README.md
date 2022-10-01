@@ -30,6 +30,11 @@ make necesairy adjustments to .env file
  # mailaccount only has 2MB quotum
  MAILER_DSN=smtp://unicorns@biler.be:Zimmo2022@mail.biler.be:587
 ```
+composer install dependencies
+```
+composer install
+```
+
 run symfony console commands
 ```
 php bin/console doctrine:database:create;
